@@ -71,7 +71,7 @@ document.getElementById('logoutButton').addEventListener('click', function() {
 
 
 // Данные карты
-const fullCardNumber = "1234 5678 9101 7368";
+const fullCardNumber = "4158 5678 9101 7368";
 const maskedCardNumber = "**** ** ** 7368";
 
 const fullCardCVV = "CVV   375";
