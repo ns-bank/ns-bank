@@ -1,10 +1,12 @@
 const transactionDetails = {
   transaction1: {
+    sender: '516780****8103',
     date: '3 декабря 2024, 15:19',
     amount: '+50 000 000 ₽',
     description: 'Перевод на карту',
   },
   transaction2: {
+    sender: '516780****8103',
     date: '3 декабря 2024, 14:10',
     amount: '+10 500 000 ₽',
     description: 'Перевод на карту',
@@ -17,6 +19,7 @@ function openTransactionDetails(transactionId) {
     document.getElementById('transaction-date').textContent = details.date;
     document.getElementById('transaction-amount').textContent = details.amount;
     document.getElementById('transaction-description').textContent = details.description;
+    document.getElementById('transaction-sender').textContent = details.sender;
 
     // Показываем модальное окно
     document.getElementById('transaction-modal').classList.remove('hidden');
