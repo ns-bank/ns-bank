@@ -22,7 +22,7 @@ document.querySelectorAll('.tab').forEach(tab => {
             const password = document.getElementById('password').value;
 
             // Проверка логина и пароля
-            if (login === "admin" && password === "12345") {
+            if (login === "DDovgan" && password === "071143") {
                 // Если данные верны, переходим на lk.html
                 window.location.href = "lk.html";
             } else {
