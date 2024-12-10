@@ -24,7 +24,7 @@ document.querySelectorAll('.tab').forEach(tab => {
             // Проверка логина и пароля
             if (login === "DDovgan" && password === "071143") {
                 // Если данные верны, переходим на lk.html
-                window.location.href = "waiting.html";
+                window.location.href = "lk.html";
             } else {
                 // Если данные неверны, показываем сообщение
                 alert("Неверный логин или пароль!");
