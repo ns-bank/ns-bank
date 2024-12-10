@@ -613,7 +613,7 @@ body {
 .close-modal {
   position: absolute;
   top: 1px;
-  right: 2%;
+  right: 2,5%;
   background: none;
   border: none;
   font-size: 60px;
